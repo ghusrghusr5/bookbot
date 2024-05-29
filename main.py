@@ -13,6 +13,7 @@ def main():
     print(f"The '{item['char']}' character was fount {item['num']} times")
   print("--- End report ---")
 
+
 def get_book_text(path):
   with open(path) as f:
     return f.read()
